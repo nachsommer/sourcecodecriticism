@@ -289,8 +289,8 @@ public class JFramingFibonacci extends javax.swing.JFrame {
     private long fibo(int n) {
         /* This code fragment is rather short, because it makes use of a specific trick:
             The method fibo(n) calls itself within its definition: a classical recursion.
-            This is most elegant, because the calculation need only one line to be noted.
-            However, this elegance comes with a huge consumation of calculation cycles.
+            This is most elegant, because the calculation needs only one line to be noted.
+            However, this elegance comes with a huge consumption of calculation cycles.
         */
         if (n <= 1) {
             return n;
