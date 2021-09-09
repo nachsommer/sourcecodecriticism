@@ -3,7 +3,7 @@ This program generates the famous Fibonacci sequence. However, it also provides 
 background to the origin of the sequence and explains the algorithm to readers not familiar with 
 its core idea which is recursion.
 
-© markus.krajewski.ch, 2021-08-31, version 0.1
+© markus.krajewski.ch, 2021-09-09, version 0.1.1
     developed with Apache NetBeans 12.4
 
  */
@@ -227,7 +227,7 @@ public class JFramingFibonacci extends javax.swing.JFrame {
         
         1. In 1202, Fibonacci published the Liber Abaci, introducing not only the arabic
              numerals, but also algorithms to occidental mathematics. It contains a famous series of 
-             numbers, baptised after him. He develops his example by a famous scenario:
+             numbers, baptised after him. He developed his example by a famous scenario:
  
             "How Many Pairs of Rabbits Are Created by One Pair in One Year.
         A certain man had one pair of rabbits together in a certain enclosed place, and one wishes to know 
@@ -253,16 +253,16 @@ public class JFramingFibonacci extends javax.swing.JFrame {
         had the abovewritten sum of rabbits, namely 377, and thus you can in order find it for an unending 
         number of months."
         
-        2. The sequence of numbers can be calculated in two different way, on the one hand most elegantly
-            by a recursive method which starting with the last generation and going back to the first, while it
+        2. The sequence of numbers can be calculated in two different ways, on the one hand most elegantly
+            by a recursive method which starts with the last generation and goes back to the first, while it
             calls itself as a method while it calls itself as a method while it calls itself as ... 
-            until the initial value n=1 is reached. Then all the numbers are available and can be added to the final
+            until the initial value n=1 is reached. Only then all the numbers are available and can be added to the final
             sum.
             On the other hand, the value can be calculated just by remembering the last and the last but one value.
             This is rather easy concerning calculating power and ressources, however it takes more code to 
             produce the non-recursive algorithm.
         
-        In the following, both ways are implemented, so the user can compare the differences by walking the 
+        In the following, both ways are implemented, so the user can compare the differences by walking through the 
         code line by line...
         */
         
