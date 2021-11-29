@@ -3,7 +3,7 @@ This program generates the famous Fibonacci sequence. However, it also provides 
 background to the origin of the sequence and explains the algorithm to readers not familiar with 
 its core idea which is recursion.
 
-© markus.krajewski.ch, 2021-09-09, version 0.1.1
+© markus.krajewski.ch, 2021-11-29, version 0.1.2
     developed with Apache NetBeans 12.4
 
  */
